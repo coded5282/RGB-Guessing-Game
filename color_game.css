@@ -16,6 +16,15 @@ body {
 	--moz-transition: background 0.6s; 
 }
 
+.square:hover {
+	--webkit-transform: scale(1.1);
+	--moz-transform: scale(1.1);
+	--o-transform: scale(1.1);
+	--ms-transform: scale(1.1);
+	transform: scale(1.1); 
+	cursor: pointer; 
+}
+
 #container {
 	margin: 20px auto; 
 	max-width: 600px; 
@@ -72,3 +81,16 @@ button:hover {
 	color: white; 
 	background: steelblue; 
 }
+
+/*@keyframes scroller {
+	0% {
+		margin-left: 600px;
+	}
+	100% {
+		margin-left: 300px; 
+	}
+}
+
+#container {
+	animation: scroller 2s linear infinite; 
+}*/
